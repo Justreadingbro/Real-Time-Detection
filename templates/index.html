@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Live Object Detection</title>
+    <style>
+      body { font-family: Arial, sans-serif; text-align: center; background: #111; color: #eee; }
+      .container { max-width: 900px; margin: 0 auto; padding: 16px; }
+      img { width: 100%; height: auto; border-radius: 8px; }
+      .info { margin-top: 12px; }
+      a.button { background: #2b6cb0; padding: 8px 16px; color: #fff; border-radius: 6px; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Live Object Detection</h1>
+      <p>Open this page on your mobile: <code>{{ ip }}:5000</code></p>
+      <img id="video" src="/video_feed" alt="Video feed">
+      <div class="info">
+        <p>Tip: Press CTRL+C in the terminal to stop the server.</p>
+      </div>
+    </div>
+  </body>
+</html>
